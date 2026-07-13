@@ -1,0 +1,29 @@
+[
+  {
+    "user_name": "alok-admin",
+    "mfa_enabled": true,
+    "policy_findings": [
+      {
+        "type": "attached_policy",
+        "policy_name": "AdministratorAccess",
+        "wildcard_action": true,
+        "wildcard_resource": true,
+        "note": "AWS managed AdministratorAccess policy"
+      }
+    ],
+    "risk_score": 95
+  },
+  {
+    "user_name": "sentry-test-overprivileged",
+    "mfa_enabled": false,
+    "policy_findings": [
+      {
+        "type": "inline_policy",
+        "policy_name": "sentry-test-wildcard-policy",
+        "wildcard_action": true,
+        "wildcard_resource": true
+      }
+    ],
+    "risk_score": 90
+  }
+]
