@@ -1,0 +1,10 @@
+[
+  {
+    "bucket_name": "sentry-test-bucket-1783873436",
+    "is_public": true,
+    "encrypted": true,
+    "versioned": false,
+    "logging_enabled": false,
+    "risk_score": 75
+  }
+]
