@@ -1,0 +1,24 @@
+{
+  "security_groups": [
+    {
+      "group_id": "sg-0dfc4ef67e66e171f",
+      "group_name": "default",
+      "findings": [],
+      "risk_score": 0
+    },
+    {
+      "group_id": "sg-03d1589bee691fa9b",
+      "group_name": "sentry-test-open-sg",
+      "findings": [
+        {
+          "protocol": "tcp",
+          "port_range": "22",
+          "severity": "high",
+          "sensitive_service": "SSH"
+        }
+      ],
+      "risk_score": 50
+    }
+  ],
+  "unused_enis": []
+}
